@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>Ram Cleaner</title>
+        <item>
+            <title>1.1.1</title>
+            <pubDate>Sun, 01 Nov 2026 01:36:27 +0900</pubDate>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>1.1.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[6시간마다 새 버전을 확인하고, 서명을 검증한 뒤 자동으로 설치합니다. 설정 > 업데이트에서 자동 업데이트를 끄거나 직접 확인할 수 있습니다.
+]]></description>
+            <enclosure url="https://github.com/sanghakbae/RamCleaner-releases/releases/download/v1.1.1/RamCleaner-1.1.1.dmg" length="2826527" type="application/octet-stream" sparkle:edSignature="K+oHYV312kEtW7cA547dx3KqDrx3AHq/ISjG0us5bb5s6C+rQ934U5idSsSA1IcexIvOFgUhoptOp4ovTEebBA=="/>
+        </item>
+    </channel>
+</rss>
