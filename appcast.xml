@@ -3,6 +3,22 @@
     <channel>
         <title>Ram Cleaner</title>
         <item>
+            <title>1.2</title>
+            <pubDate>Fri, 06 Nov 2026 14:26:12 +0900</pubDate>
+            <sparkle:version>4</sparkle:version>
+            <sparkle:shortVersionString>1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[최적화 후 확보량을 실제로 반환된 파일 캐시 기준으로 다시 측정합니다. 이전에는 1.24GB가 반환돼도 약 55MB로 표시되는 문제가 있었습니다.
+메모리를 일부러 8GB까지 채우던 보조 방식을 없앴습니다. 스왑이 늘어 Mac이 느려질 수 있었습니다.
+상태 색에 macOS 자체의 메모리 압박 판단이 함께 반영되고, 패널에 스왑 사용량이 표시됩니다.
+자동 최적화는 비울 캐시가 없으면 건너뛰고, 실행해도 압박이 풀리지 않으면 간격을 두 배씩(최대 60분) 늘립니다.
+압박의 원인이 purge로 줄일 수 없는 앱 메모리이면, 가장 큰 앱을 알려 주고 종료·재시작할 수 있는 카드를 보여 줍니다.
+메모리 압박이 1분 넘게 이어지거나 앱의 메모리가 계속 늘면 알림이 옵니다. 설정에서 끌 수 있습니다.
+purge는 파일 캐시만 비우며, 앱이 쓰는 메모리는 줄이지 않습니다.
+]]></description>
+            <enclosure url="https://github.com/sanghakbae/RamCleaner-releases/releases/download/v1.2/RamCleaner-1.2.dmg" length="2891523" type="application/octet-stream" sparkle:edSignature="uJzGTKsjllnjCMJZUVtlDyH3ue0POVoyBNt50zfcVdS4W0W2WpDlSBkNiOdIzLBSTmv/eoDfLGrZ6zF0N5jhCA=="/>
+        </item>
+        <item>
             <title>1.1.1</title>
             <pubDate>Sun, 01 Nov 2026 01:36:27 +0900</pubDate>
             <sparkle:version>3</sparkle:version>
