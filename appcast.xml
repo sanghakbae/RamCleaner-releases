@@ -3,6 +3,16 @@
     <channel>
         <title>Ram Cleaner</title>
         <item>
+            <title>1.2.1</title>
+            <pubDate>Fri, 06 Nov 2026 16:51:46 +0900</pubDate>
+            <sparkle:version>5</sparkle:version>
+            <sparkle:shortVersionString>1.2.1</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>13.0</sparkle:minimumSystemVersion>
+            <description sparkle:format="plain-text"><![CDATA[메뉴바 사용률이 0%로 멈춰 갱신되지 않던 문제를 고쳤습니다. 이제 2초마다 실제 사용률과 상태 색이 표시됩니다.
+]]></description>
+            <enclosure url="https://github.com/sanghakbae/RamCleaner-releases/releases/download/v1.2.1/RamCleaner-1.2.1.dmg" length="2893245" type="application/octet-stream" sparkle:edSignature="+FR2uxqRXyAA/PXoV/H46j40kANRvqBuLkJd5cwGIZ7TQHLxXejb6+f5EQzH+ugiTRnrgJ/VRzmj4jPjt8fmDw=="/>
+        </item>
+        <item>
             <title>1.2</title>
             <pubDate>Fri, 06 Nov 2026 14:26:12 +0900</pubDate>
             <sparkle:version>4</sparkle:version>
